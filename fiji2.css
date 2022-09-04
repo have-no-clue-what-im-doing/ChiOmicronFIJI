@@ -1,0 +1,131 @@
+#Logo {
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+
+#LogoMobile {
+    display: none;
+}
+
+li {
+    float: right;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    
+    
+    
+    /* border: solid blue; */
+}
+
+header {
+    /* border: solid red; */
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+
+ul {
+    /* border: solid yellow; */ 
+    height: 100px;
+    margin: 0;
+    padding-right: 35px;
+}
+
+body {
+    margin: 0;
+    height: auto;
+    background: #520975;
+}
+
+li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #650b8e;
+    border-top: 2px solid transparent;
+}
+
+li a:link {
+    text-decoration: none;
+}
+
+li a:visited {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    border-top: 2px solid #520975;
+}
+
+#wrapper {
+    margin: 10px auto;
+    height: 10000px;
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+   
+}
+
+#wrapper p {
+    font-family: paragraphFont;
+}
+
+@font-face {
+	font-family: paragraphFont;
+	src: url(myriad-pro-cufonfonts/MYRIADPRO-REGULAR.OTF);
+}
+
+@media only screen and (max-width: 900px) {
+    
+    header {
+        position: static;
+        top: none;
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        
+        }
+    #LogoMobile {
+        width: 400px;
+        float: none;
+        margin-top: 2px;
+        display: block;
+        margin: auto;
+       /*  padding-right: 70px; */
+    }  
+    
+    #Logo {
+        display: none;
+    }
+
+    ul a {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    li {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    ul {
+        height: auto;
+    }
+    li a {
+        margin-right: 0px;
+        font-size: 50px;
+    }
+
+    #wrapper {
+        width: 85%;
+    }
+}

@@ -30,7 +30,7 @@ body {
 }
 
 #MainAbout {
-	height: 1000px;
+	height: 5000px;
 	background-color: #f6f6f6;
 	padding: 10px;
 }
@@ -167,12 +167,12 @@ footer div {
 
 
 #pigdown {
-	width: 75%;
 	font-size: 100px;
 	text-align: center;
 	margin-top: -10px;
 	background-color: white;
 	margin: 0 auto;
+	height: 1000px;
 }
 
 #realfooter {
